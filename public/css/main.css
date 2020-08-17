@@ -1,0 +1,26 @@
+:root {
+    --color-grey: #444;
+    --color-darker-grey: #333;
+    --color-smooth-red: rgb(209, 57, 57);
+    --color-border-red: #a00;
+    --color-text: #ddd;
+    --color-text-darker: #aaa;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-width: 600px;
+    background: var(--color-darker-grey)
+}
+
+#container {
+    
+    position: absolute;
+    width: 100%;
+}

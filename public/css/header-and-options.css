@@ -1,0 +1,126 @@
+#app-header {
+    background: var(--color-grey);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 80px;
+
+    padding: 0 20px;
+
+    
+}
+
+#app-header .options {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#app-header .options .line {
+    margin: 5px 0;    
+
+    height: 7px;
+    width: 100%;
+
+    background: var(--color-text);
+}
+
+#app-header .logo {
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    background: var(--color-smooth-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-border-red)
+}
+
+#app-header .logo img {
+    height: 50px;
+    width: 50px;
+    
+    
+}
+
+#app-header .trending img {
+    height: 50px;
+    width: 50px;
+
+    
+    
+}
+
+#app-options {
+    position: fixed;
+    top: 80px;
+    display: block;
+    text-align: center;
+    
+    background: var(--color-grey);
+    
+    width: 100vw;
+    z-index: 100;
+    
+    transition: ease-in 2s;
+    
+}
+
+#app-options.hidden {
+    transition: ease-in 2s;
+    left: -120%;
+    
+    
+}
+
+#app-options .profile {
+    margin: 60px auto;
+    height: 75px;
+    width: 75px;
+    background: white;
+    border-radius: 50%;
+}
+
+
+/*
+#app-options ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-options ul li {
+    margin: 10px auto;
+    color: var(--color-text)
+}
+*/
+
+#app-options ul {
+    
+    width: 100%;
+    
+    text-align: center;
+    
+    
+}
+
+#app-options ul li {
+    display: block;
+    
+    line-height: 80px;
+    background: var(--color-smooth-red);
+}
+
+#app-options ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+}

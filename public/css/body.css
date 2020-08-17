@@ -1,0 +1,163 @@
+
+
+
+
+
+
+#app-body {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+#app-body .header {
+    border-bottom: 1px solid var(--color-smooth-red);
+    width: 90%;
+    
+}
+
+#app-body .search-bar {
+    margin: 15px auto; 
+
+    height: 55px;
+    width: 70vw;
+    border-radius: 50px;
+
+    
+    background: white;
+
+    outline: none;
+
+    display: flex;
+    align-items: center;
+
+    
+    
+}
+
+#app-body .search-bar img {
+    margin: 20px;
+}
+
+#app-body .search-bar input {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: 0;
+    color: var(--color-smooth-red);
+
+    font-size: 18px;
+}
+
+#app-body .messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    width: 100%;
+    min-height: 500px;
+    
+    
+}
+
+#app-body .messages .msg-item {
+    background: var(--color-grey);
+
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+
+    
+    
+    margin-top: 20px;
+    
+}
+
+/* #app-body .messages .msg-item+.msg-item::before {
+
+    position: absolute;
+
+    content: '';
+    
+    height: 1px;
+    width: 50%;
+
+    background: white;
+
+} */
+
+#app-body .messages .msg-item .text {
+    color: var(--color-text);
+
+    padding: 20px;
+    
+}
+
+#app-body .messages .msg-item .footer {
+    height: 20px;
+
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    margin: auto;
+
+    padding: 20px 0;
+
+    border-top: 1px solid var(--color-darker-grey);
+}
+
+#app-body .messages .msg-item .footer a {
+    text-decoration: none;
+    color: var(--color-smooth-red);
+
+    margin: 20px;
+    
+}
+
+
+
+#app-body .messages h1 {
+    color: var(--color-text-darker);
+    line-height: 60px;
+    letter-spacing: 6px;
+}
+
+#app-body .messages p {
+    color: var(--color-smooth-red);
+    letter-spacing: 5px;
+}
+
+#app-body #write {
+    position: absolute;
+
+    height: 75px;
+    width: 75px;
+    
+    border-radius: 50%;
+
+    bottom: 40px;
+    right: 40px;
+
+    background: var(--color-smooth-red);
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--color-text);
+
+    z-index: 10;
+    
+}
+
